@@ -13,10 +13,19 @@ Step 1: Download,unpack and extract the ZIP file that is provided from the keggl
 
 step 2: Clone repo.
 
-Step 3: Do a Pip install on Pandas, Numpy, matplotlib and seaborn.
+Step 3: Create a virtual enviorment:
+python -m venv .venv
 
-step 4: add the file in the data mapp.
+step 4: Activate the venv:
 
-step 5: open Python.ipynb in vscode through jupyter.
+Mac: source .venv/bin/activate
 
-step 6: run all cells from up and downwards.
+Windows: .venv/scripts/activate
+
+Step 5: Do a Pip install on Pandas, Numpy, matplotlib and seaborn.
+
+step 6: add the file in the data mapp.
+
+step 7: open Python.ipynb in vscode through jupyter.
+
+step 8: run all cells from up and downwards.
